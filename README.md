@@ -1,5 +1,22 @@
 Smart Logistics Platform
+
+![image](https://github.com/user-attachments/assets/34a4d382-d3f2-4371-81ab-6bd248dccee4)
+
 Welcome to the Smart Logistics Platform! This platform allows users to book logistics services for transporting goods across various locations in India. It offers features like real-time price estimation, transportation mode selection, booking management, and real-time tracking for drivers. Below is the detailed breakdown of the project:
+![Untitled diagram-2024-10-23-175516](https://github.com/user-attachments/assets/724f05ab-08cf-49c9-97a0-afe38e560b51)
+
+
+![image](https://github.com/user-attachments/assets/13893b9b-b204-45f1-b27c-c82e63026a73)
+
+
+![image](https://github.com/user-attachments/assets/70794fe7-89a2-4229-9196-0e0ace9b99f2)
+
+![image](https://github.com/user-attachments/assets/7afcc5b9-be3c-4345-b561-898d38934440)
+
+
+
+
+
 
 Project Overview
 The platform allows users to:
@@ -17,39 +34,13 @@ Admins can:
 Monitor the fleet, track driver performance, and view analytics of trips completed.
 The system is built to handle high scalability and real-time data for millions of users and drivers.
 
-Table of Contents
-Project Overview
-Technologies Used
-Live Demo
-System Architecture
-Database Schema (ER Diagram)
-Features
-Screenshots
-Installation Guide
-How It Works
-Video Walkthrough
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB
-Hosting: Vercel for web app, Google Maps API for calculating distance
-Real-Time Tracking: Socket.io
-Payment Integration: Stripe API (optional)
-Live Demo
-Live Website: Smart Logistics Platform
-System Architecture
-The system is designed using microservices with the following components:
 
-Load Balancer: Distributes requests across multiple servers to handle high traffic.
-Database Cluster: MongoDB cluster for storing user, driver, and booking data.
-Real-Time Service: Powered by Socket.io for live GPS tracking and real-time updates.
-Caching Layer: Redis for caching frequently accessed data (e.g., active bookings, available drivers).
-High-Level Architecture Diagram
-
-Database Schema (ER Diagram)
-Below is the ER diagram for the database, defining relationships between entities like Users, Drivers, Bookings, Vehicles, and Payment Records.
 
 ER Diagram
+
+
+![Untitled diagram-2024-10-23-185927](https://github.com/user-attachments/assets/011c3310-239f-4b37-b5ed-f89f4797162f)
+
 
 Features
 1. User Features:
@@ -72,28 +63,7 @@ Select Vehicle and Source/Destination Cities
 Cost Calculation Based on Mode of Transportation
 4. Real-Time Tracking
 Tracking Vehicle Location in Real-Time
-Installation Guide
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/arnavchaudhur12/LogisticsPlatform.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd LogisticsPlatform
-Install dependencies:
-
-bash
-Copy code
-npm install
-Run the server locally:
-
-bash
-Copy code
-npm start
-Access the app on http://localhost:3000/.
 
 How It Works
 Booking Flow:
